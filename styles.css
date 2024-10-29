@@ -1,0 +1,58 @@
+css
+
+Verify
+
+Open In Editor
+Edit
+Copy code
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #181818;
+    color: #ffffff;
+}
+
+header {
+    background-color: #202020;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #ff0000;
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.embed-responsive {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #000;
+}
+
+.embed-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+footer {
+    background-color: #202020;
+    color: #aaa;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
