@@ -3,35 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Piso WiFi Cat Portal</title>
+    <title>PisoFlix - Your WiFi Entertainment Hub</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="background-container">
-        <div class="overlay"></div>
-    </div>
-
     <header>
-        <h1>Piso WiFi Cat Portal</h1>
+        <nav>
+            <div class="logo">JFLIX</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#wifi">WiFi</a></li>
+                <li><a href="#popular">Popular</a></li>
+                <li><a href="#mylist">My List</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-        <section class="wifi-embed">
-            <h2>Connect to Piso WiFi</h2>
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Connect and Stream</h1>
+                <p>Unlimited WiFi access. Endless entertainment possibilities.</p>
+                <button class="cta-button">Get Started</button>
+            </div>
+        </section>
+
+        <section id="wifi">
+            <h2>JFlix Portal</h2>
             <div class="embed-responsive">
                 <iframe src="https://pisowifi.sh/" title="Piso WiFi Interface" allowfullscreen></iframe>
             </div>
         </section>
 
-        <section class="cat-facts">
-            <h2>Cat Fact of the Day</h2>
-            <p id="cat-fact">Cats spend 70% of their lives sleeping.</p>
+        <section id="popular">
+            <h2>Popular on JFlix</h2>
+            <div class="content-row">
+                <div class="content-item"></div>
+                <div class="content-item"></div>
+                <div class="content-item"></div>
+                <div class="content-item"></div>
+                <div class="content-item"></div>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2023 Piso WiFi Cat Portal. All rights reserved.</p>
+        <p>&copy; 2023 JFlix. All rights reserved.</p>
     </footer>
 
     <script src="script.js"></script>
