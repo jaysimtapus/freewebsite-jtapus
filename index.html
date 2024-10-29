@@ -3,23 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JTapus Free Tv</title>
+    <title>Piso WiFi Cat Portal</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="background-container">
+        <div class="overlay"></div>
+    </div>
+
     <header>
-        <h1>JTAPUS Free TV Embed</h1>
+        <h1>Piso WiFi Cat Portal</h1>
     </header>
-    
+
     <main>
-        <p>Free streaming channel:</p>
-        <div class="embed-responsive">
-            <iframe src="https://pisowifi.sh/" title="Piso WiFi Interface" allowfullscreen></iframe>
-        </div>
+        <section class="wifi-embed">
+            <h2>Connect to Piso WiFi</h2>
+            <div class="embed-responsive">
+                <iframe src="https://pisowifi.sh/" title="Piso WiFi Interface" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section class="cat-facts">
+            <h2>Cat Fact of the Day</h2>
+            <p id="cat-fact">Cats spend 70% of their lives sleeping.</p>
+        </section>
     </main>
 
     <footer>
-        <p>&copy; 2023 Your Company Name. All rights reserved.</p>
+        <p>&copy; 2023 Piso WiFi Cat Portal. All rights reserved.</p>
     </footer>
 
     <script src="script.js"></script>
